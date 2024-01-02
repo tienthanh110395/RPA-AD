@@ -1,0 +1,453 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strMaTicket&Sequence_31",
+        "bolLogin&Sequence_31",
+        "brsHelpDesk&StateMachine_1",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Create New User/CreateNewUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFirstName",
+        "in_strLastName",
+        "in_strUserName",
+        "in_strPassword"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Create New User/OpenTabMemberOf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Create New User/SelectDirectory.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Create New User/AddGroupTabMemberOf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolMultiName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_bolNotFound",
+        "in_strNameGroup"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Create New User/ClickApplyProperties.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Find User/CheckExistUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strResult&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAccount",
+        "out_bolExist"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/ResetPassword.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strNewPassword"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenTabProperties.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Find User/CloseFindUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/Find User/OpenFindUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenTabMemberOf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/RemoveFromGroup.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenTabAccount.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenTabProfile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/ConfigDocument.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strUsername",
+        "in_strProfilePath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/CheckExistUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strResult&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strAccount",
+        "out_bolExist"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenActiveDirectory.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolDisplay&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/Excel/GenerateUsernameVF.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_strUsername",
+        "in_strLastName",
+        "in_strFirstName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/Excel/CheckExistFileExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IEnumFiles&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strPathFolder",
+        "in_strPathFileProcess",
+        "out_strPathFileProcess",
+        "out_bolExistFile"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/Excel/DefineClassifyTemplate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strText&Sequence_1",
+        "listSheets&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strClassify",
+        "out_bolExistFile",
+        "in_strPathFileProcess"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/Excel/GenerateUsernamePartner.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFullName",
+        "out_strUsername"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/Excel/CheckReqiredInfo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtRequestForm",
+        "out_listColNotExist",
+        "in_strClassify",
+        "in_strPathFileProcess"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intIndex&Sequence_1",
+        "strStatus&Sequence_1",
+        "dtMasterContractor&Sequence_1",
+        "listUserFound&Sequence_1",
+        "listUserNotFound&Sequence_1",
+        "bolNotFoundGroupMail&Sequence_1",
+        "bolExistUser&Sequence_1",
+        "strUserCheck&Sequence_1",
+        "dtInsert&Sequence_1",
+        "intMatchUser&Sequence_1",
+        "intSequence&Sequence_1",
+        "strUsername&Sequence_1",
+        "dtMasterEmployee&Sequence_1",
+        "dtRequestForm&Sequence_1",
+        "listColNotExist&Sequence_1",
+        "strClassify&Sequence_1",
+        "bolExistFile&Sequence_1",
+        "strPathFileProcess&Sequence_1",
+        "strPathFolder&Sequence_1",
+        "bolExistAttachment&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_brsHelpDesk",
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/IT HelpDesk/HelpDesk.SearchRequest.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bAlertAppear&Sequence_2",
+        "strAlertMessage&Sequence_5",
+        "strDialogConfirm&Sequence_6",
+        "strDialogConfirm&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_brsHelpDesk",
+        "in_TicketNumber"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/CreateFolder.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolFolderExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strPathFolder"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/IT HelpDesk/HelpDesk.DownloadAttachment.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolExistFile&Sequence_1",
+        "strFileName&Sequence_1",
+        "fileDownload&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_brsHelpDesk",
+        "out_AttachmentFilePath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/OpenFindUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/CreateNewUser.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFirstName",
+        "in_strLastName",
+        "in_strUserName",
+        "in_strPassword"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/AddGroupTabMemberOf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolMultiName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strNameGroup",
+        "out_bolNotFound"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/AD/ClickApplyProperties.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/IT HelpDesk/HelpDesk.ReplyMailTicket.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolFlag&Sequence_1",
+        "strText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strMailCc",
+        "in_strStatus",
+        "in_strMailBody",
+        "in_brsHelpDesk",
+        "in_strRegard",
+        "in_strSignature",
+        "in_strPathFolderTemp"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_brsHelpDesk",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/IT HelpDesk/HelpDesk.Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bolLogin&Sequence_6",
+        "bolAlreadyLogin&Sequence_5",
+        "bolLogin&Sequence_9",
+        "bolAlreadyLogin&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_HelpDeskUrl",
+        "out_brsHelpDesk",
+        "in_strUserName",
+        "in_strPassword",
+        "in_UserDataFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
